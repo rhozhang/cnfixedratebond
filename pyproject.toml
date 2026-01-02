@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cnfixedratebond"
+version = "0.2.1"
+authors = [
+  {name = "Rho Zhang", email = "rhozhang@163.com"},
+]
+description = "fixed rate bond in ib, sse, szse"
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ['numpy']
+
+[project.urls]
+Homepage = "https://gitee.com/rhozhang/cnfixedratebond"
+Issues = "https://gitee.com/rhozhang/cnfixedratebond/issues"
